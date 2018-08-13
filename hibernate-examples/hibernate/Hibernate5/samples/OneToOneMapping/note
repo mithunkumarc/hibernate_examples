@@ -1,0 +1,22 @@
+AUTO: Hibernate selects the generation strategy based on the used dialect,
+(For most popular databases, it selects GenerationType.SEQUENCE )
+
+
+IDENTITY: Hibernate relies on an auto-incremented database column to generate the primary key,
+
+
+SEQUENCE: Hibernate requests the primary key value from a database sequence,
+
+Hibernate uses database auto increment sequence(doesn’t ask database to insert value for id)
+Sequence is preferred for performance
+
+TABLE: Hibernate uses a database table to simulate a sequence.
+Creates a separate table which imitates database auto increment sequence
+
+
+Ex 
+User table ------mapped to ------- UserDetail table
+
+
+prepare database : database name : hibernate 
+no need to create table , hibernate.hbm2ddl.auto enabled
