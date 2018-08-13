@@ -1,0 +1,9 @@
+hibernate ddl auto enabled
+three tables will be created
+employee
+department
+department_employee : multiple employees belong to same department
+
+In department entity
+    @OneToMany(cascade = CascadeType.ALL)
+    private List<Employee> employees = new ArrayList<>();
