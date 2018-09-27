@@ -1,7 +1,7 @@
 include below modules to run hibernate on java10
 
 
-module DbConnection {
+module <your-module-name> {
 	requires hibernate.core;
 	requires hibernate.jpa;
 	requires mysql.connector.java;
