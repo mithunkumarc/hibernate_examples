@@ -1,4 +1,6 @@
 java 10 hibernate 5.3.6
+> https://www.sitepoint.com/reflection-vs-encapsulation-in-the-java-module-system/#commandlineescapehatches 
+
 
 ### module-info.java
         module newinsert_module {
