@@ -10,6 +10,7 @@
     <property name="connection.username">root</property>
     <property name="connection.password">root</property>
     <property name="show_sql">true</property>
+    <!-- no need to create table below property will create , avoid create  , use update -->
     <property name="hbm2ddl.auto">update</property>
        
     <mapping class="com.example.hibernate.Book" />
