@@ -4,5 +4,6 @@ hibernate examples
 
 #### Topics
 
+* Introduction
 * Database Connection
 * 
