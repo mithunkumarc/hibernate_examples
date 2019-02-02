@@ -6,4 +6,6 @@ hibernate examples
 
 * Introduction
 * Database Connection
+* hibernate.cfg.xml
+* Entity mapping
 * 
